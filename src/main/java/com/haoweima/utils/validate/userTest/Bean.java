@@ -1,10 +1,13 @@
 package com.haoweima.utils.validate.userTest;
 
+import com.haoweima.utils.validate.validator.Calibrator;
+
 /**
  * Created by haoweima on 2019/1/21.
  */
-public class Bean {
 
+@Calibrator(location = "com.haoweima.utils.validate.userTest.TESTEnum")
+public class Bean {
     private Bean var1;
     private Integer var2;
     private String var3;

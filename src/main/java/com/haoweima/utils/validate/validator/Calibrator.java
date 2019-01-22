@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 校验器
+ * 受检规则标签
  * Created by haoweima on 2019/1/21.
  */
 
