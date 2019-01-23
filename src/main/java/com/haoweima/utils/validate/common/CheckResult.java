@@ -1,14 +1,14 @@
-package com.haoweima.utils.validate.validator;
+package com.haoweima.utils.validate.common;
 
 /**
  * Created by haoweima on 2019/1/22.
  */
 public class CheckResult<T> {
 
-    ResultEnum resultCode;
-    String resultMsg;
+    private ResultEnum resultCode;
+    private String resultMsg;
 
-    T result;
+    private T result;
 
     public ResultEnum getResultCode() {
         return resultCode;

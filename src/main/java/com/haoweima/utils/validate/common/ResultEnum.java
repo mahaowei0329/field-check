@@ -1,4 +1,4 @@
-package com.haoweima.utils.validate.validator;
+package com.haoweima.utils.validate.common;
 
 /**
  * Created by haoweima on 2019/1/22.
